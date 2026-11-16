@@ -1,0 +1,47 @@
+{
+  "name": {
+    "tr": "Takip programı",
+    "en": "Follow-up plan",
+    "ar": "برنامج المتابعة"
+  },
+  "status": "play",
+  "category": "",
+  "id": "hakkimizda",
+  "url": "",
+  "path": "hakkimizda",
+  "index": 1,
+  "icon": "info",
+  "desing": {
+    "header": [],
+    "body": [
+      "wbszhu",
+      "2nehe2"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Randevulu aile hekimliği ve takip programı.",
+    "en": "Appointment-based family medicine and follow-up.",
+    "ar": "طب أسرة بالمواعيد وبرنامج متابعة."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Takip programı",
+    "en": "Follow-up plan",
+    "ar": "برنامج المتابعة"
+  },
+  "keyword": {
+    "tr": "hakkımızda",
+    "en": "about",
+    "ar": "من نحن"
+  },
+  "text": {},
+  "update": "2026-11-16T11:31:17.287Z",
+  "date": "2026-10-30"
+}

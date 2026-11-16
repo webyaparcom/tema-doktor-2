@@ -1,0 +1,545 @@
+<div class="modulex">
+  <div class="modulextitle">
+    <div class="modulextitlebody">
+      <div class="modulextitlebodylang">
+        <ul>
+          {{langhtml}}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="modulexbody">
+    <a href="/{{lang}}/"
+      ><img
+        src="/img/{{logo}}?v={{random}}"
+        alt="{{web-name}} Logo"
+        class="modulexbodylogo"
+        loading="lazy"
+    /></a>
+    <button type="button" class="modulex-mobile-toggle" onclick="menu2_toggle()" aria-label="{{ariaToggle}}" aria-expanded="false" aria-controls="menu-2-drawer">
+      <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+    </button>
+  </div>
+  <!-- Mobil uygulama kuralı (12 Kas 2026): menü SOLDAN açılan çekmece; dışına dokununca kapanır -->
+  <div class="modulex-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="modulexmenubody" id="menu-2-drawer">
+    <button type="button" class="modulex-menu2-drawer-close" onclick="menu2_toggle()" aria-label="{{ariaToggle}}">
+      <span class="material-symbols-outlined" aria-hidden="true">close</span>
+    </button>
+    <div class="modulexmenu" id="menu-2-root">
+      <div class="modulexmenulistbody">
+        <div class="modulexmenulist">
+          <ul>
+            {{html}}
+          </ul>
+          <div class="modulexlanguages-mobile">
+            <ul>
+              {{langhtml}}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+ 
+
+  .modulex {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modulextitle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .modulextitle:has(.modulextitlebodylang:empty),
+  .modulextitle:has(.modulextitlebodylang ul:empty) {
+    display: none;
+  }
+
+  .modulextitlebody {
+    color: --color--;
+    width: var(--max);
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0px 10px 0px;
+  }
+
+  .modulextitlebodytitle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+
+  .modulextitlebodylang {
+    width: auto;
+    margin: -5px 0px -5px 0px;
+  }
+
+  .modulextitlebodylang:empty,
+  .modulextitlebodylang ul:empty {
+    display: none;
+  }
+
+  .modulextitlebodylang ul {
+    display: flex;
+    gap: 5px;
+  }
+
+  .modulexbody {
+    width: var(--max);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 5px 0px 5px 0px;
+    position: relative;
+  }
+
+  .modulexbody > a {
+    display: inline-flex;
+    align-items: center;
+    max-width: min(90vw, 320px);
+    min-width: 0;
+    flex-shrink: 1;
+    overflow: hidden;
+  }
+
+  .modulexbodylogo {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: left center;
+  }
+
+  /* SVG logo korumasi (2026-09-12): intrinsic boyutu OLMAYAN bir SVG
+     (yalniz viewBox) `height:auto` ile flex icinde 0'a coker ve logo
+     GORUNMEZ. `max-height` yetmez -- ust sinirdir, olcu vermez.
+     Yukseklik bu modulun KENDI tasarim tavanindan alindi. */
+  .modulexbodylogo[src*=".svg"] {
+    height: 60px;
+    width: 300px;
+    object-fit: contain;
+  }
+
+  .modulex-mobile-toggle {
+    display: none;
+    background: --bgcolor--;
+    color: --color--;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 12px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+  }
+
+  .modulex-mobile-toggle span {
+    font-size: 24px;
+  }
+
+  .modulexmenu {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: var(--max);
+  }
+
+  .modulexmenulist {
+    width: calc(100% - 20px);
+    background-color: --bgcolor--;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+  }
+
+  .modulex-menu2-drawer-close,
+  .modulex-menu-backdrop {
+    display: none;
+  }
+
+  .modulexmenubody {
+    width: 100%;
+    background-color: --bgcolor--;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modulexmenulist ul {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .modulexmenulist ul a {
+    padding: 10px;
+    font-size: 16px;
+    color: --color-- !important;
+    border-bottom: 1px solid transparent;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+  .modulexmenulist ul a:hover {
+    background-color: --activebgcolor--;
+    border-radius: 5px;
+    color: --activecolor-- !important;
+    cursor: pointer;
+  }
+
+  .modulexmenulist ul a.modulex-menu-list-active {
+    color: --activecolor-- !important;
+  }
+
+  .modulex-menu-list-active {
+    background-color: --activebgcolor--;
+    border-radius: 5px;
+    color: --activecolor-- !important;
+    border-bottom: 1px solid --activecolor-- !important;
+    cursor: pointer;
+  }
+
+  .modulexmenulistbody {
+    width: 100%;
+  }
+
+  .modulexlanguages-mobile {
+    display: none;
+    padding-top: 15px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .modulexlanguages-mobile:empty,
+  .modulexlanguages-mobile ul:empty {
+    display: none !important;
+  }
+
+  .modulexlanguages-mobile ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .modulexlanguages-mobile li {
+    list-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    aspect-ratio: 1/1;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    flex-shrink: 0;
+    flex-grow: 0;
+  }
+
+  .modulexlanguages-mobile li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modulexlanguages-mobile li:hover {
+    background-color: --activebgcolor--;
+    border-color: --activecolor--;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .modulexbodylogo {
+      max-height: 80px;
+      max-width: 100%;
+    }
+
+    .modulextitle {
+    margin-bottom: -30px;
+  }
+
+
+  }
+
+  @media screen and (max-width: 1024px) {
+    .modulexbody {
+      width: calc(100% - 20px);
+      padding: 0 10px;
+      justify-content: flex-start;
+    }
+
+    .modulexmenulist ul {
+      flex-direction: row;
+    }
+
+    .modulexbodylogo {
+      max-width: min(50vw, 220px);
+      max-height: 80px;
+    }
+
+    .modulextitlebody {
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+      display: none;
+    }
+
+    .modulextitlebodytitle {
+      text-align: center;
+      font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .modulextitlebodylang {
+      display: none;
+    }
+
+    .modulexbody {
+      width: calc(100% - 20px);
+      padding: 0 10px;
+      justify-content: space-between;
+    }
+
+    .modulex-mobile-toggle {
+      display: inline-flex;
+      position: static;
+      order: -1; /* hamburger solda, çekmece de soldan açılır */
+      min-width: 48px;
+      min-height: 48px;
+    }
+
+    .modulexbody {
+      justify-content: flex-start;
+      gap: 8px;
+    }
+
+    .modulexbodylogo {
+      max-width: min(40vw, 180px);
+      max-height: 70px;
+    }
+
+    .modulexbody > a {
+      max-width: min(40vw, 180px);
+    }
+
+    /* SOL ÇEKMECE (kural 11 Kas 2026: sağda değil SOLDA; RTL'de aynası) */
+    .modulexmenubody {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      inset-inline-start: 0;
+      width: min(86vw, 320px);
+      z-index: 10000;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      justify-content: flex-start;
+      overflow-y: auto;
+      overscroll-behavior: contain;
+      transform: translateX(-100%);
+      visibility: hidden;
+      transition: transform 0.28s ease, visibility 0s linear 0.28s;
+      box-shadow: 4px 0 24px rgba(0, 0, 0, 0.25);
+      padding-top: env(safe-area-inset-top, 0);
+      padding-bottom: env(safe-area-inset-bottom, 0);
+    }
+
+    [dir="rtl"] .modulexmenubody {
+      transform: translateX(100%);
+    }
+
+    .modulexmenubody.modulexmenu-open {
+      transform: none;
+      visibility: visible;
+      transition: transform 0.28s ease, visibility 0s;
+    }
+
+    .modulex-menu2-drawer-close {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      align-self: flex-end;
+      flex: 0 0 auto;
+      width: 48px;
+      height: 48px;
+      margin: 4px 4px 0 4px;
+      padding: 0;
+      border: 0;
+      border-radius: 50%;
+      background: transparent;
+      color: --color--;
+      cursor: pointer;
+    }
+
+    .modulex-menu-backdrop.modulexmenu-open {
+      display: block;
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      background: rgba(0, 0, 0, 0.55);
+    }
+
+    .modulexmenulist {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 12px;
+      box-sizing: border-box;
+      background-color: transparent;
+      box-shadow: none;
+    }
+
+    .modulexlanguages-mobile {
+      display: block;
+    }
+
+    .modulexlanguages-mobile li {
+      width: 48px;
+      height: 48px;
+      padding: 0;
+    }
+
+    .modulexlanguages-mobile li a {
+      width: 100%;
+      height: 100%;
+      min-width: 48px;
+      min-height: 48px;
+    }
+
+    .modulexlanguages-mobile ul {
+      display: flex !important;
+      flex-direction: row !important;
+      flex-wrap: nowrap !important;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modulexlanguages-mobile li {
+      flex-shrink: 0;
+      flex-grow: 0;
+    }
+
+    .modulexmenulist ul {
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .modulexmenulist ul a {
+      font-size: 14px;
+      width: 100%;
+      min-height: 48px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+      padding: 12px;
+      text-align: start;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 0;
+    }
+
+    .modulexmenulist ul a:last-child {
+      border-bottom: none;
+    }
+
+    .modulexmenulist ul a:hover {
+      background-color: --activebgcolor--;
+      border-radius: 0;
+    }
+
+    .modulextitlebodytitle {
+      font-size: 12px;
+    }
+  }
+
+  /* W2: mobil tasma kontrolu */
+  @media (max-width: 768px) {
+    [class*="modulex"] {
+      max-width: 100%;
+      box-sizing: border-box;
+    }
+  }
+
+  /* W2: erisilebilirlik — animasyon kapatma */
+  @media (prefers-reduced-motion: reduce) {
+    [class*="modulex"],
+    [class*="modulex"] * {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+
+  /* 8 Kas 2026: logo gorseli acik zemin icin cizilmis (koyu yazi, saydam); koyu modda koyu header uzerinde kayboluyordu.
+     Koyu modda acik plaka; bilerek acik logolar (logo-acik) haric. */
+  @media (prefers-color-scheme: dark) {
+    .modulexbodylogo:not([src*="acik"]) {
+      background: #ffffff;
+      padding: 4px 10px;
+      border-radius: 8px;
+      box-sizing: content-box;
+    }
+  }
+</style>
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      var drawer = document.getElementById("menu-2-drawer");
+      var btn = document.querySelector(".modulex-mobile-toggle");
+      var back = document.querySelector(".modulex-menu-backdrop");
+      if (!root) {
+        return;
+      }
+      var ac = !root.classList.contains("modulexmenu-open");
+      [root, drawer, back].forEach(function (el) {
+        if (el) { el.classList[ac ? "add" : "remove"]("modulexmenu-open"); }
+      });
+      if (btn) { btn.setAttribute("aria-expanded", ac ? "true" : "false"); }
+      document.body.style.overflow = ac ? "hidden" : "";
+      if (ac) {
+        document.addEventListener("keydown", menu2_esc);
+      } else {
+        document.removeEventListener("keydown", menu2_esc);
+        if (btn) { btn.focus(); }
+      }
+    }
+    function menu2_esc(e) {
+      if (e.key === "Escape") { menu2_toggle(); }
+    }
+    /* çekmece içindeki bağlantıya dokununca kapan (sayfa içi # bağlantılar için) */
+    document.addEventListener("click", function (e) {
+      var d = document.getElementById("menu-2-drawer");
+      var a = e.target && e.target.closest ? e.target.closest("a[href]") : null;
+      if (d && a && d.contains(a) && d.classList.contains("modulexmenu-open")) { menu2_toggle(); }
+    });
+  }
+</script>

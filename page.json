@@ -1,0 +1,191 @@
+{
+  "data": [
+    {
+      "id": "mkjxosl3la",
+      "name": {
+        "tr": "Muayene alanları",
+        "en": "Areas of care",
+        "ar": "مجالات الرعاية"
+      },
+      "description": {
+        "tr": "Aşağıdaki başlıklar genel bilgilendirme içindir; her başvuru hekim muayenesiyle değerlendirilir.",
+        "en": "The headings below are general information; every visit is assessed by a doctor.",
+        "ar": "العناوين أدناه للمعلومات العامة؛ وتُقيَّم كل زيارة بفحص الطبيب."
+      },
+      "path": "hizmetler",
+      "icon": "work",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "ksirvi",
+          "r7mln7"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "name": {
+        "tr": "Takip programı",
+        "en": "Follow-up plan",
+        "ar": "برنامج المتابعة"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "",
+      "url": "",
+      "index": 1,
+      "icon": "info",
+      "desing": {
+        "header": [],
+        "body": [
+          "wbszhu",
+          "2nehe2"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Randevulu aile hekimliği ve takip programı.",
+        "en": "Appointment-based family medicine and follow-up.",
+        "ar": "طب أسرة بالمواعيد وبرنامج متابعة."
+      }
+    },
+    {
+      "id": "zgjdw9pzrn",
+      "name": {
+        "tr": "Hekimlerimiz",
+        "en": "Our doctors",
+        "ar": "أطباؤنا"
+      },
+      "description": {
+        "tr": "Sizi karşılayan çalışanlarımız.",
+        "en": "The staff who welcomes you.",
+        "ar": "الموظفون الذين يستقبلونكم."
+      },
+      "path": "ekip",
+      "icon": "groups",
+      "category": "hakkimizda",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "2wxkd1",
+          "r7mln7"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "id": "7v8a4c465o",
+      "name": {
+        "tr": "Ziyaret rehberi",
+        "en": "Visit guide",
+        "ar": "دليل الزيارة"
+      },
+      "description": {
+        "tr": "Merak edilenler ve kısa yanıtlar.",
+        "en": "Common questions and short answers.",
+        "ar": "أسئلة متكررة وإجابات موجزة."
+      },
+      "path": "sorular",
+      "icon": "help",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "ry2v3g",
+          "r7mln7"
+        ],
+        "footer": []
+      },
+      "index": 3
+    },
+    {
+      "id": "fzpaujtwxm",
+      "name": {
+        "tr": "Sağlık yazıları",
+        "en": "Health articles",
+        "ar": "مقالات صحية"
+      },
+      "description": {
+        "tr": "Genel sağlık bilgisi yazıları ve örnek ziyaret senaryoları (kurgusal).",
+        "en": "General health articles and sample visit scenarios (fictional).",
+        "ar": "مقالات معلومات صحية عامة وسيناريوهات زيارة نموذجية (افتراضية)."
+      },
+      "path": "referanslar",
+      "icon": "stars",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "fwhkmo",
+          "syx3mn"
+        ],
+        "footer": []
+      },
+      "index": 4
+    },
+    {
+      "id": "xuxbym9td8",
+      "name": {
+        "tr": "Randevu",
+        "en": "Appointment",
+        "ar": "موعد"
+      },
+      "description": {
+        "tr": "Randevu talebi ve danışma (demo).",
+        "en": "Appointment request and front desk (demo).",
+        "ar": "طلب موعد والاستقبال (تجريبي)."
+      },
+      "path": "teklif-al",
+      "icon": "request_quote",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "g4kk8p",
+          "ry2v3g"
+        ],
+        "footer": []
+      },
+      "index": 5
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact",
+        "ar": "اتصل بنا"
+      },
+      "status": "play",
+      "id": "iletisim",
+      "path": "iletisim",
+      "category": "",
+      "url": "",
+      "index": 6,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "g4kk8p",
+          "k8mp01"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Adres, telefon ve çalışma saatleri.",
+        "en": "Address, phone and opening hours.",
+        "ar": "العنوان والهاتف وساعات العمل."
+      }
+    }
+  ],
+  "desc": []
+}

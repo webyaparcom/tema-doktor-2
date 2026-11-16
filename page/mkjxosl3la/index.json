@@ -1,0 +1,40 @@
+{
+  "id": "mkjxosl3la",
+  "name": {
+    "tr": "Muayene alanları",
+    "en": "Areas of care",
+    "ar": "مجالات الرعاية"
+  },
+  "description": {
+    "tr": "Aşağıdaki başlıklar genel bilgilendirme içindir; her başvuru hekim muayenesiyle değerlendirilir.",
+    "en": "The headings below are general information; every visit is assessed by a doctor.",
+    "ar": "العناوين أدناه للمعلومات العامة؛ وتُقيَّم كل زيارة بفحص الطبيب."
+  },
+  "keyword": {
+    "tr": "Muayene alanları",
+    "en": "Areas of care",
+    "ar": "مجالات الرعاية"
+  },
+  "path": "hizmetler",
+  "icon": "work",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "ksirvi",
+      "r7mln7"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Muayene alanları",
+    "en": "Areas of care",
+    "ar": "مجالات الرعاية"
+  },
+  "date": "2026-11-16T11:24:30.684Z",
+  "update": "2026-11-16T11:31:17.283Z"
+}

@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Nehir Aile Kliniği: aile hekimliği muayenesi, çocuk izlemi ve kronik hastalık takibi için çevrim içi randevu. Demo site; içerik kurgusaldır.",
+    "en": "Nehir Family Clinic: online appointments for family-medicine visits, child check-ups and chronic-condition follow-up. Demo site; content is fictional.",
+    "ar": "عيادة نهير العائلية: مواعيد عبر الإنترنت لفحوص طب الأسرة ومتابعة الأطفال والأمراض المزمنة. موقع تجريبي؛ المحتوى افتراضي."
+  },
+  "keyword": {
+    "tr": "aile hekimi, randevu, çocuk izlemi, kronik hastalık takibi",
+    "en": "family doctor, appointment, child check-up, chronic care",
+    "ar": "طبيب أسرة، موعد، متابعة الأطفال، الأمراض المزمنة"
+  },
+  "category": "Kurumsal",
+  "name": "Nehir Aile Kliniği",
+  "domain": "doktor-2.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "open-sans",
+    "heading": "fraunces",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#1B6E8A",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "6px",
+    "--mx-radius-md": "10px",
+    "--mx-radius-lg": "14px",
+    "--mx-radius-xl": "19px"
+  },
+  "icon": "icon.png"
+}

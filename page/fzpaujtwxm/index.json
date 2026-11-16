@@ -1,0 +1,40 @@
+{
+  "id": "fzpaujtwxm",
+  "name": {
+    "tr": "Sağlık yazıları",
+    "en": "Health articles",
+    "ar": "مقالات صحية"
+  },
+  "description": {
+    "tr": "Genel sağlık bilgisi yazıları ve örnek ziyaret senaryoları (kurgusal).",
+    "en": "General health articles and sample visit scenarios (fictional).",
+    "ar": "مقالات معلومات صحية عامة وسيناريوهات زيارة نموذجية (افتراضية)."
+  },
+  "keyword": {
+    "tr": "sağlık yazısı, bilgilendirme",
+    "en": "health article, information",
+    "ar": "مقال صحي، توعية"
+  },
+  "path": "referanslar",
+  "icon": "stars",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "fwhkmo",
+      "syx3mn"
+    ],
+    "footer": []
+  },
+  "index": 4,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Sağlık yazıları",
+    "en": "Health articles",
+    "ar": "مقالات صحية"
+  },
+  "date": "2026-11-16T11:24:30.702Z",
+  "update": "2026-11-16T11:31:17.296Z"
+}
