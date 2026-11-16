@@ -1,0 +1,40 @@
+{
+  "id": "xuxbym9td8",
+  "name": {
+    "tr": "Randevu",
+    "en": "Appointment",
+    "ar": "موعد"
+  },
+  "description": {
+    "tr": "Randevu talebi ve danışma (demo).",
+    "en": "Appointment request and front desk (demo).",
+    "ar": "طلب موعد والاستقبال (تجريبي)."
+  },
+  "keyword": {
+    "tr": "randevu",
+    "en": "appointment",
+    "ar": "موعد"
+  },
+  "path": "teklif-al",
+  "icon": "request_quote",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "g4kk8p",
+      "ry2v3g"
+    ],
+    "footer": []
+  },
+  "index": 5,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Randevu",
+    "en": "Appointment",
+    "ar": "موعد"
+  },
+  "date": "2026-11-16T11:24:30.707Z",
+  "update": "2026-11-16T11:31:17.300Z"
+}
