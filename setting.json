@@ -4,12 +4,16 @@
   "description": {
     "tr": "Nehir Aile Kliniği: aile hekimliği muayenesi, çocuk izlemi ve kronik hastalık takibi için çevrim içi randevu. Demo site; içerik kurgusaldır.",
     "en": "Nehir Family Clinic: online appointments for family-medicine visits, child check-ups and chronic-condition follow-up. Demo site; content is fictional.",
-    "ar": "عيادة نهير العائلية: مواعيد عبر الإنترنت لفحوص طب الأسرة ومتابعة الأطفال والأمراض المزمنة. موقع تجريبي؛ المحتوى افتراضي."
+    "ar": "عيادة نهير العائلية: مواعيد عبر الإنترنت لفحوص طب الأسرة ومتابعة الأطفال والأمراض المزمنة. موقع تجريبي؛ المحتوى افتراضي.",
+    "de": "Nehir Aile Kliniği: Online-Termine für hausärztliche Untersuchung, Kinderbetreuung und Verlaufskontrolle chronischer Erkrankungen. Demo-Website; der Inhalt ist fiktiv.",
+    "ru": "Nehir Aile Kliniği: онлайн-запись на приём семейного врача, наблюдение за детьми и контроль хронических заболеваний. Демонстрационный сайт; содержимое вымышленное."
   },
   "keyword": {
     "tr": "aile hekimi, randevu, çocuk izlemi, kronik hastalık takibi",
     "en": "family doctor, appointment, child check-up, chronic care",
-    "ar": "طبيب أسرة، موعد، متابعة الأطفال، الأمراض المزمنة"
+    "ar": "طبيب أسرة، موعد، متابعة الأطفال، الأمراض المزمنة",
+    "de": "Hausarzt, Termin, Kindervorsorge, Betreuung chronischer Erkrankungen",
+    "ru": "семейный врач, запись на приём, наблюдение за ребёнком, ведение хронических заболеваний"
   },
   "category": "Kurumsal",
   "name": "Nehir Aile Kliniği",
@@ -18,15 +22,27 @@
     "tr": true,
     "en": true,
     "ar": true,
-    "de": false,
-    "ru": false,
+    "de": true,
+    "ru": true,
     "es": false,
     "fr": false,
     "it": false,
     "ja": false,
     "zh": false,
     "ko": false,
-    "pt": false
+    "pt": false,
+    "fa": false,
+    "he": false,
+    "ur": false,
+    "nl": false,
+    "pl": false,
+    "uk": false,
+    "az": false,
+    "ka": false,
+    "el": false,
+    "bg": false,
+    "ro": false,
+    "hi": false
   },
   "logo": "logo.png",
   "multi": false,

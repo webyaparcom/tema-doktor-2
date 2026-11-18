@@ -3,17 +3,23 @@
   "name": {
     "tr": "Sağlık yazıları",
     "en": "Health articles",
-    "ar": "مقالات صحية"
+    "ar": "مقالات صحية",
+    "de": "Gesundheit",
+    "ru": "Здоровье"
   },
   "description": {
     "tr": "Genel sağlık bilgisi yazıları ve örnek ziyaret senaryoları (kurgusal).",
     "en": "General health articles and sample visit scenarios (fictional).",
-    "ar": "مقالات معلومات صحية عامة وسيناريوهات زيارة نموذجية (افتراضية)."
+    "ar": "مقالات معلومات صحية عامة وسيناريوهات زيارة نموذجية (افتراضية).",
+    "de": "Artikel mit allgemeinen Gesundheitsinformationen und Beispielszenarien für einen Besuch (fiktiv).",
+    "ru": "Статьи с общей информацией о здоровье и примеры сценариев визита (вымышленные)."
   },
   "keyword": {
     "tr": "sağlık yazısı, bilgilendirme",
     "en": "health article, information",
-    "ar": "مقال صحي، توعية"
+    "ar": "مقال صحي، توعية",
+    "de": "Gesundheitsartikel, Information",
+    "ru": "статья о здоровье, информация"
   },
   "path": "referanslar",
   "icon": "stars",
@@ -33,7 +39,9 @@
   "title": {
     "tr": "Sağlık yazıları",
     "en": "Health articles",
-    "ar": "مقالات صحية"
+    "ar": "مقالات صحية",
+    "de": "Gesundheit",
+    "ru": "Здоровье"
   },
   "date": "2026-11-16T11:24:30.702Z",
   "update": "2026-11-16T11:31:17.296Z"

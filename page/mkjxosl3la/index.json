@@ -3,17 +3,23 @@
   "name": {
     "tr": "Muayene alanları",
     "en": "Areas of care",
-    "ar": "مجالات الرعاية"
+    "ar": "مجالات الرعاية",
+    "de": "Behandlungsbereiche",
+    "ru": "Направления"
   },
   "description": {
     "tr": "Aşağıdaki başlıklar genel bilgilendirme içindir; her başvuru hekim muayenesiyle değerlendirilir.",
     "en": "The headings below are general information; every visit is assessed by a doctor.",
-    "ar": "العناوين أدناه للمعلومات العامة؛ وتُقيَّم كل زيارة بفحص الطبيب."
+    "ar": "العناوين أدناه للمعلومات العامة؛ وتُقيَّم كل زيارة بفحص الطبيب.",
+    "de": "Die folgenden Überschriften dienen der allgemeinen Information; jeder Besuch wird ärztlich beurteilt.",
+    "ru": "Следующие заголовки носят общий информационный характер; каждый визит оценивается врачом."
   },
   "keyword": {
     "tr": "Muayene alanları",
     "en": "Areas of care",
-    "ar": "مجالات الرعاية"
+    "ar": "مجالات الرعاية",
+    "de": "Behandlungsbereiche",
+    "ru": "Направления"
   },
   "path": "hizmetler",
   "icon": "work",
@@ -33,7 +39,9 @@
   "title": {
     "tr": "Muayene alanları",
     "en": "Areas of care",
-    "ar": "مجالات الرعاية"
+    "ar": "مجالات الرعاية",
+    "de": "Behandlungsbereiche",
+    "ru": "Направления"
   },
   "date": "2026-11-16T11:24:30.684Z",
   "update": "2026-11-16T11:31:17.283Z"
