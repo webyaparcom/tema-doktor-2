@@ -2,7 +2,9 @@
   "name": {
     "tr": "Takip programı",
     "en": "Follow-up plan",
-    "ar": "برنامج المتابعة"
+    "ar": "برنامج المتابعة",
+    "de": "Nachsorge",
+    "ru": "Наблюдение"
   },
   "status": "play",
   "category": "",
@@ -23,7 +25,9 @@
   "description": {
     "tr": "Randevulu aile hekimliği ve takip programı.",
     "en": "Appointment-based family medicine and follow-up.",
-    "ar": "طب أسرة بالمواعيد وبرنامج متابعة."
+    "ar": "طب أسرة بالمواعيد وبرنامج متابعة.",
+    "de": "Hausarztpraxis nach Terminvergabe und Nachsorgeprogramm.",
+    "ru": "Семейная медицина по записи и программа наблюдения."
   },
   "spot": {
     "tr": "",
@@ -34,12 +38,16 @@
   "title": {
     "tr": "Takip programı",
     "en": "Follow-up plan",
-    "ar": "برنامج المتابعة"
+    "ar": "برنامج المتابعة",
+    "de": "Nachsorge",
+    "ru": "Наблюдение"
   },
   "keyword": {
     "tr": "hakkımızda",
     "en": "about",
-    "ar": "من نحن"
+    "ar": "من نحن",
+    "de": "Über uns",
+    "ru": "О нас"
   },
   "text": {},
   "update": "2026-11-16T11:31:17.287Z",

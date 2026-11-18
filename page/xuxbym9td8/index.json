@@ -3,17 +3,23 @@
   "name": {
     "tr": "Randevu",
     "en": "Appointment",
-    "ar": "موعد"
+    "ar": "موعد",
+    "de": "Termin",
+    "ru": "Запись"
   },
   "description": {
     "tr": "Randevu talebi ve danışma (demo).",
     "en": "Appointment request and front desk (demo).",
-    "ar": "طلب موعد والاستقبال (تجريبي)."
+    "ar": "طلب موعد والاستقبال (تجريبي).",
+    "de": "Terminanfrage und Auskunft (Demo).",
+    "ru": "Запрос на запись и консультация (демо)."
   },
   "keyword": {
     "tr": "randevu",
     "en": "appointment",
-    "ar": "موعد"
+    "ar": "موعد",
+    "de": "Termin",
+    "ru": "запись"
   },
   "path": "teklif-al",
   "icon": "request_quote",
@@ -33,7 +39,9 @@
   "title": {
     "tr": "Randevu",
     "en": "Appointment",
-    "ar": "موعد"
+    "ar": "موعد",
+    "de": "Termin",
+    "ru": "Запись"
   },
   "date": "2026-11-16T11:24:30.707Z",
   "update": "2026-11-16T11:31:17.300Z"

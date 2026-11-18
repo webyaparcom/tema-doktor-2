@@ -3,17 +3,23 @@
   "name": {
     "tr": "Vizyon",
     "en": "Vision",
-    "ar": "الرؤية"
+    "ar": "الرؤية",
+    "de": "Vision",
+    "ru": "Видение"
   },
   "description": {
     "tr": "Vizyonumuz",
     "en": "Our vision",
-    "ar": "رؤيتنا"
+    "ar": "رؤيتنا",
+    "de": "Unsere Vision",
+    "ru": "Наше видение"
   },
   "keyword": {
     "tr": "Vizyon",
     "en": "vision, our vision, goals",
-    "ar": "الرؤية, رؤيتنا, الأهداف"
+    "ar": "الرؤية, رؤيتنا, الأهداف",
+    "de": "Vision",
+    "ru": "Видение"
   },
   "path": "vizyon",
   "icon": "visibility",
@@ -29,12 +35,16 @@
   "text": {
     "tr": "<h2>Vizyonumuz</h2>\n<p>Mahallesinin düzenli takip için güvendiği yakın klinik olmak.</p>",
     "en": "<h2>Our vision</h2>\n<p>To be the nearby clinic the neighbourhood relies on for regular follow-up.</p>",
-    "ar": "<h2>رؤيتنا</h2>\n<p>أن نكون العيادة القريبة التي يعتمد عليها الحيّ للمتابعة المنتظمة.</p>"
+    "ar": "<h2>رؤيتنا</h2>\n<p>أن نكون العيادة القريبة التي يعتمد عليها الحيّ للمتابعة المنتظمة.</p>",
+    "de": "<h2>Unsere Vision</h2>\n<p>Die nahe Klinik zu sein, der das Viertel für regelmäßige Kontrollen vertraut.</p>",
+    "ru": "<h2>Наше видение</h2>\n<p>Быть близкой клиникой, которой район доверяет для регулярного наблюдения.</p>"
   },
   "title": {
     "tr": "Vizyon",
     "en": "Vision",
-    "ar": "الرؤية"
+    "ar": "الرؤية",
+    "de": "Vision",
+    "ru": "Видение"
   },
   "date": "2026-11-16T11:24:30.520Z",
   "update": "2026-11-16T11:31:17.308Z",
